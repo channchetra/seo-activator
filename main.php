@@ -1,19 +1,19 @@
 <?php
 /**
  * @wordpress-plugin
- * Plugin Name:       Yoast SEO Activ@tor
- * Plugin URI:        https://bit.ly/yseo-act
- * Description:       Yoast SEO Plugin Activ@tor
+ * Plugin Name:       Yoast SEO Activator
+ * Plugin URI:        https://yoast.com/
+ * Description:       Yoast SEO Plugin
  * Version:           1.3.0
  * Requires at least: 5.9.0
  * Requires PHP:      7.2
- * Author:            moh@medhk2
- * Author URI:        https://bit.ly/medhk2
+ * Author:            moh@medhk2, Sovichetra
+ * Author URI:        #
  **/
 
 defined( 'ABSPATH' ) || exit;
-$PLUGIN_NAME   = 'Yoast SEO Activ@tor';
-$PLUGIN_DOMAIN = 'yoast-seo-activ@tor';
+$PLUGIN_NAME   = 'Yoast SEO Activator';
+$PLUGIN_DOMAIN = 'yoast-seo-activator';
 extract( require_once __DIR__ . DIRECTORY_SEPARATOR . 'functions.php' );
 if (
 	$admin_notice_ignored()
